@@ -39,6 +39,9 @@
          -->
     <bool name="config_enableNetworkLocationOverlay" translatable="false">true</bool>
 
+    <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveNotificationLed">true</bool>
+
     <!-- The maximum range of gamma adjustment possible using the screen
          auto-brightness adjustment setting. -->
     <fraction name="config_autoBrightnessAdjustmentMaxGamma">200%</fraction>
