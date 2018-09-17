@@ -5,8 +5,8 @@ lib/com.qualcomm.qti.ant@1.0.so
 -lib/libantradio.so
 
 # Audio
-lib/xlog_client.so
-lib64/xlog_client.so
+lib64/xlog_client.so|bfc8bcaa9568160b7a47dcd1d190d69d0e58b3a0
+lib/xlog_client.so|9155573c45d8a226d5000de8f71e7841a78494d7
 
 # CNE
 etc/cne/andsfCne.xml
