@@ -15,5 +15,8 @@ TARGET_OTA_ASSERT_DEVICE := beryllium
 # Kernel
 TARGET_KERNEL_CONFIG := beryllium_defconfig
 
+# Sepolicy
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/beryllium/BoardConfigVendor.mk
