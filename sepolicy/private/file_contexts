@@ -1,0 +1,2 @@
+# Audio
+/system/etc/audio_policy_configuration.xml        u:object_r:vendor_configs_file:s0
