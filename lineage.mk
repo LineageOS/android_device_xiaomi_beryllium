@@ -23,4 +23,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="beryllium" \
     TARGET_DEVICE="beryllium"
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi-rev1
