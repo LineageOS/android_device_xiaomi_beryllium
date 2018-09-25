@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "b9868a20_3eb01951",
+        "filename": "device-props.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-09-25T16:30:50Z",
+      "side": 1,
+      "message": "Actually, all these audio props are set in the vendor image.",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 40
+      },
+      "revId": "61a768e7a1257ec3c5905e165d037d76b2870d24",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "67b3e53a_7f189c3d",
         "filename": "device-props.mk",
         "patchSetId": 1
@@ -41,6 +64,75 @@
         "startChar": 0,
         "endLine": 34,
         "endChar": 34
+      },
+      "revId": "61a768e7a1257ec3c5905e165d037d76b2870d24",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1d8982f3_d8cd99f7",
+        "filename": "device-props.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-09-25T16:30:50Z",
+      "side": 1,
+      "message": "Move it to common tree? This got removed in P. Not sure if we should even care.",
+      "range": {
+        "startLine": 38,
+        "startChar": 4,
+        "endLine": 38,
+        "endChar": 36
+      },
+      "revId": "61a768e7a1257ec3c5905e165d037d76b2870d24",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f2f8884b_7fef050e",
+        "filename": "device-props.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-09-25T16:30:50Z",
+      "side": 1,
+      "message": "Is this a system stock prop? Can\u0027t find it in this dump: https://github.com/TadiT7/xiaomi_beryllium_dump/blob/beryllium-user-8.1.0-OPM1.171019.026-8.8.28-release-keys/system/build.prop",
+      "range": {
+        "startLine": 39,
+        "startChar": 4,
+        "endLine": 39,
+        "endChar": 38
+      },
+      "revId": "61a768e7a1257ec3c5905e165d037d76b2870d24",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "69c5d8f1_97b51199",
+        "filename": "device-props.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-09-25T16:30:50Z",
+      "side": 1,
+      "message": "This one is set in the vendor images. https://github.com/TadiT7/xiaomi_beryllium_dump/blob/beryllium-user-8.1.0-OPM1.171019.026-8.8.28-release-keys/vendor/build.prop#L37",
+      "range": {
+        "startLine": 40,
+        "startChar": 4,
+        "endLine": 40,
+        "endChar": 36
       },
       "revId": "61a768e7a1257ec3c5905e165d037d76b2870d24",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
