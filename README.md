@@ -18,7 +18,7 @@ Memory  | 6/8 GB RAM
 Shipped Android Version | 8.1 with MIUI 9.6
 Storage | 64/128/256 GB
 Battery | Non-removable Li-Po 4000 mAh battery
-Display | 1080 x 2246 pixels, 18:9 ratio, 6.18 inches, Super AMOLED (~403 ppi density)
+Display | 1080 x 2246 pixels, 18:9 ratio, 6.18 inches, IPS LCD (~403 ppi density)
 Camera  | 12 MP + 5MP, dual pixel PDAF, dual-LED (dual tone) flash
 
 ## Device picture
