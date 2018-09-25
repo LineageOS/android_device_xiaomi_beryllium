@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "984455ed_6b63a98a",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 192,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-09-25T16:03:48Z",
+      "side": 1,
+      "message": "This should go to common, but I didn\u0027t add it on purpose because support for com.qualcomm.location is not added in 15.1, turning this into a no-op.",
+      "range": {
+        "startLine": 181,
+        "startChar": 0,
+        "endLine": 192,
+        "endChar": 113
+      },
+      "revId": "c669e41b952d8dc22cab372845698a3effde432a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
