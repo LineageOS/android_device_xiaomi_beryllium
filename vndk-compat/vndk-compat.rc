@@ -1,0 +1,2 @@
+on post-fs
+    export LD_CONFIG_FILE /system/etc/ld.config.compat.txt
