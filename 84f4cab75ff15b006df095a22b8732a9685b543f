@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "de10594f_cfe38fcd",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 184,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-10-10T09:06:40Z",
+      "side": 1,
+      "message": "Is this correct? Either dipper or beryllium is wrong.",
+      "range": {
+        "startLine": 184,
+        "startChar": 46,
+        "endLine": 184,
+        "endChar": 52
+      },
+      "revId": "84f4cab75ff15b006df095a22b8732a9685b543f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
