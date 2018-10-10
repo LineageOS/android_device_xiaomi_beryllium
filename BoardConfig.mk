@@ -12,6 +12,9 @@ DEVICE_PATH := device/xiaomi/beryllium
 # Assert
 TARGET_OTA_ASSERT_DEVICE := beryllium
 
+# Crypto
+TARGET_HW_DISK_ENCRYPTION := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := beryllium_defconfig
 
