@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cf660671_4867e1a9",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-10-10T12:43:27Z",
+      "side": 1,
+      "message": "What about the difference here from 89 to 88 from dipper?",
+      "range": {
+        "startLine": 200,
+        "startChar": 45,
+        "endLine": 200,
+        "endChar": 51
+      },
+      "revId": "7f9436068d5ca0b75c4df38406319db04b8be48a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
