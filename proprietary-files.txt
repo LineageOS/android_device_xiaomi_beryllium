@@ -8,6 +8,10 @@ lib/com.qualcomm.qti.ant@1.0.so
 lib64/xlog_client.so|bfc8bcaa9568160b7a47dcd1d190d69d0e58b3a0
 lib/xlog_client.so|9155573c45d8a226d5000de8f71e7841a78494d7
 
+# Bluetooth (aptX) - from crosshatch - PD1A.180720.030
+lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
+lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127
+
 # CNE
 etc/cne/andsfCne.xml
 etc/cne/SwimConfig.xml
