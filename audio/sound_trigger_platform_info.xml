@@ -32,6 +32,7 @@
 <!--- 0x0102: Includes acdb_ids param with the gcs_usecase tag. This matches    -->
 <!--- the gcs_usecase with the acdb device that uses it.                        -->
     <common_config>
+        <param implementer_version="0x0100" />
         <param max_cpe_sessions="1" />
         <param max_wdsp_sessions="2" />
         <param max_ape_sessions="8" />
