@@ -194,9 +194,18 @@
                 <string ...>M -5,0 L -5,10 L 5,10 L 5,0 Z @dp</string>
          @see https://www.w3.org/TR/SVG/paths.html#PathData
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutout">M -270,0 L -270,89 L 270,89 L 270,0 Z</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">
+        M 0,0
+        L -293.5,0
+        C -283,0 -274.5,8.5 -274.5,25.7
+        C -274.5,59 -247.5,87 -214.2,87
+        L 214.2,87
+        C 247.5,87 274.5,59 274.5,19
+        C 274.5,8.5 283,0 293.5,0
+        Z
+    </string>
 
     <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">89.0px</dimen>
+    <dimen name="status_bar_height_portrait">87.0px</dimen>
     <dimen name="status_bar_height_landscape">24.0dp</dimen>
 </resources>
