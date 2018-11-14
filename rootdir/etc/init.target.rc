@@ -1,2 +1,0 @@
-on init
-    mount none /system/etc/audio_platform_info.xml /vendor/etc/audio_platform_info.xml bind
