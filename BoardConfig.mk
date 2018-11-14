@@ -15,6 +15,9 @@ TARGET_OTA_ASSERT_DEVICE := beryllium
 # Audio
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 
+# Board
+TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
+
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
