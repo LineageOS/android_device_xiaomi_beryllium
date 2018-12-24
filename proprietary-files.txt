@@ -1,7 +1,3 @@
-# Bluetooth (aptX) - from crosshatch - PD1A.180720.030
-lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
-lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127
-
 # FM
 lib64/fm_helium.so
 lib64/libfm-hci.so
