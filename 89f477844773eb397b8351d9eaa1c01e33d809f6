@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cdc0560f_5c6edde3",
+        "filename": "overlay-lineage/lineage-sdk/lineage/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 13559
+      },
+      "writtenOn": "2018-12-27T14:17:51Z",
+      "side": 1,
+      "message": "this should be \"oled_native\" considering xiaomi sets it as default mode",
+      "range": {
+        "startLine": 66,
+        "startChar": 14,
+        "endLine": 66,
+        "endChar": 23
+      },
+      "revId": "89f477844773eb397b8351d9eaa1c01e33d809f6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
