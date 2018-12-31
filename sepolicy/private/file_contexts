@@ -1,0 +1,3 @@
+# Display
+/system/etc/qdcm_calib_data_ebbg_fhd_video_dsi_panel.xml        u:object_r:vendor_configs_file:s0
+/system/etc/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml        u:object_r:vendor_configs_file:s0

@@ -13,6 +13,15 @@ $(call inherit-product-if-exists, vendor/xiaomi/beryllium/beryllium-vendor.mk)
 TARGET_SCREEN_HEIGHT := 2246
 TARGET_SCREEN_WIDTH := 1080
 
+# Device init scripts
+PRODUCT_PACKAGES += \
+    init.target.rc
+
+# Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_ebbg_fhd_video_dsi_panel.xml:system/etc/qdcm_calib_data_ebbg_fhd_video_dsi_panel.xml \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml:system/etc/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \

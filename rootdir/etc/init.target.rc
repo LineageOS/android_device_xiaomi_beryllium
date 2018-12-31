@@ -1,0 +1,3 @@
+on init
+    mount none /system/etc/qdcm_calib_data_ebbg_fhd_video_dsi_panel.xml /vendor/etc/qdcm_calib_data_ebbg_fhd_video_dsi_panel.xml bind
+    mount none /system/etc/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml /vendor/etc/qdcm_calib_data_tianma_fhd_video_dsi_panel.xml bind
