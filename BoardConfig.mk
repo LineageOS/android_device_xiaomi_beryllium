@@ -28,6 +28,9 @@ BOARD_HAVE_QCOM_FM := true
 # Kernel
 TARGET_KERNEL_CONFIG := beryllium_defconfig
 
+# HIDL
+DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
+
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 
