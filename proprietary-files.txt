@@ -5,3 +5,7 @@ lib64/libfm-hci.so
 lib/fm_helium.so
 lib/libfm-hci.so
 -lib/vendor.qti.hardware.fm@1.0.so
+
+# Hotword enrollment
+-priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk;PRESIGNED
+-priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk;PRESIGNED
