@@ -1,3 +1,3 @@
-require version-modem=2019-02-13 23:02:56
-require version-vendor=1550233434,28
-require version-miui=9.2.15
+require version-modem=2019-04-20 00:04:42
+require version-vendor=1556293791,28
+require version-miui=9.4.26
