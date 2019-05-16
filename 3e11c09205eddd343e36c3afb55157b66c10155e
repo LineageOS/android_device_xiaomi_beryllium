@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "96af9f5a_6cc1f9e3",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 13559
+      },
+      "writtenOn": "2019-05-16T13:05:00Z",
+      "side": 1,
+      "message": "this can be reverted other then this, it seems to work fine",
+      "range": {
+        "startLine": 226,
+        "startChar": 46,
+        "endLine": 226,
+        "endChar": 52
+      },
+      "revId": "3e11c09205eddd343e36c3afb55157b66c10155e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
