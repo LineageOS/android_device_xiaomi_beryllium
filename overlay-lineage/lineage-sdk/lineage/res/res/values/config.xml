@@ -69,7 +69,9 @@
          app, they can be remapped here. The format is
          "oldname:newname", one per entry. -->
     <string-array name="config_displayModeMappings" translatable="false">
-        <item>00default:standard</item>
+        <item>OLED_native:standard</item>
+        <item>38oled_native:standard</item>
+        <item>00default:dynamic</item>
         <item>sRGB_d65:srgb</item>
         <item>srgb_d65:srgb</item>
     </string-array>
