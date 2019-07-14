@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "73fb99ef_bf9b68d9",
+        "filename": "lineage_beryllium.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-07-14T18:15:26Z",
+      "side": 1,
+      "message": "Why?",
+      "revId": "42ff2870638ebaa07ec512da29c5d1d8b2d7fff3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
