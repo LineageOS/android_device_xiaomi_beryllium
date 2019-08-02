@@ -31,6 +31,14 @@ on boot
     chown cameraserver root /sys/class/thermal/thermal_message/boost
     chmod 0664 /sys/class/thermal/thermal_message/boost
 
+service displayfeature-hal-1-0 /vendor/bin/hw/vendor.xiaomi.hardware.displayfeature@1.0-service
+    override
+    class hal
+    user system
+    group system graphics
+    onrestart restart displayfeature
+    disabled
+
 service remosaic_daemon /vendor/bin/remosaic_daemon
     class late_start
     user camera
