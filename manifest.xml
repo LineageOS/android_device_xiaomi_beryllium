@@ -7,7 +7,6 @@
             <name>IGnss</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IGnss/default</fqname>
         <fqname>@1.0::IGnss/gnss_vendor</fqname>
     </hal>
     <hal format="hidl">
@@ -18,7 +17,6 @@
             <name>IKeymasterDevice</name>
             <instance>default</instance>
         </interface>
-        <fqname>@3.0::IKeymasterDevice/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.goodix.hardware.biometrics.fingerprint</name>
@@ -40,10 +38,6 @@
             <name>IGoodixFingerprintDaemonHbd</name>
             <instance>default</instance>
         </interface>
-        <fqname>@2.1::IGoodixFingerprintDaemon/default</fqname>
-        <fqname>@2.1::IGoodixFingerprintDaemonExt/default</fqname>
-        <fqname>@2.1::IGoodixFingerprintDaemonFido/default</fqname>
-        <fqname>@2.1::IGoodixFingerprintDaemonHbd/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.goodix.hardware.fingerprintextension</name>
@@ -53,7 +47,6 @@
             <name>IGoodixBiometricsFingerprint</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IGoodixBiometricsFingerprint/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.lineage.livedisplay</name>
@@ -76,7 +69,6 @@
             <name>ILocHidlGnss</name>
             <instance>gnss_vendor</instance>
         </interface>
-        <fqname>@1.2::ILocHidlGnss/gnss_vendor</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.gnss</name>
@@ -86,7 +78,6 @@
             <name>ILocHidlGnss</name>
             <instance>gnss_vendor</instance>
         </interface>
-        <fqname>@2.0::ILocHidlGnss/gnss_vendor</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.fm</name>
@@ -96,6 +87,5 @@
             <name>IFmHci</name>
             <instance>default</instance>
         </interface>
-        <fqname>@1.0::IFmHci/default</fqname>
     </hal>
 </manifest>
