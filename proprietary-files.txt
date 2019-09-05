@@ -29,7 +29,7 @@ vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 
 # Camera
-vendor/bin/remosaic_daemon
+vendor/bin/remosaic_daemon|eccc7cae3e6ec5dc02506f3de821e53b6ddeff89
 vendor/etc/camera/MIUI_Time.ttf
 vendor/etc/camera/Miui-Light.ttf
 vendor/etc/camera/age_gender_bg
@@ -63,8 +63,8 @@ vendor/lib64/libbinder.so
 vendor/lib64/libcamxfdalgov7.so
 vendor/lib64/libcamxfdengine.so
 vendor/lib64/libcamxstatscore.so
-vendor/lib64/libremosaic_daemon.so
-vendor/lib64/libremosaiclib.so
+vendor/lib64/libremosaic_daemon.so|771f9dbc4e69dd64290f1c9186b591bcf0538cfd
+vendor/lib64/libremosaiclib.so|982f948e072095f57d949566542edc9ef6349790
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libnanopb.so
 vendor/lib/camera/com.qti.sensor.imx363.so
@@ -176,8 +176,7 @@ vendor/lib/libmibokeh_845.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmorpho_video_refiner.so
-vendor/lib/libremosaic_daemon.so
-vendor/lib/libremosaiclib.so
+vendor/lib/libremosaic_daemon.so|4fe2c07a31f1e4e57320d889a42b7e1791c7d375
 vendor/lib/libmdsprpc.so
 vendor/lib/libmpbase.so
 vendor/lib/libSNPE.so
