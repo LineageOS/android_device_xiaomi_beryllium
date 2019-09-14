@@ -120,7 +120,7 @@ vendor/lib/camera/components/com.qti.node.photosolid.so
 vendor/lib/camera/components/com.qti.node.remosaic.so
 vendor/lib/camera/components/com.qti.node.sr.so
 vendor/lib/camera/components/com.qti.node.swregistration.so
-vendor/lib/camera/components/com.qti.node.watermark.so
+#vendor/lib/camera/components/com.qti.node.watermark.so
 vendor/lib/camera/components/com.qti.node.xiaomigenderage.so
 vendor/lib/camera/components/com.qti.stats.aec.so
 vendor/lib/camera/components/com.qti.stats.aecwrapper.so
@@ -132,7 +132,7 @@ vendor/lib/camera/components/com.qti.stats.awbwrapper.so
 vendor/lib/camera/components/com.qti.stats.pdlib.so
 vendor/lib/camera/components/com.qti.stats.pdlibsony.so
 vendor/lib/camera/components/com.qti.stats.pdlibwrapper.so
-vendor/lib/camera/components/com.vidhance.node.eis.so
+#vendor/lib/camera/components/com.vidhance.node.eis.so
 vendor/lib/camera/components/com.xiaomi.node.mibokeh.so
 vendor/lib/camera/components/etc/GpuKernelRepo.pb
 vendor/lib/camera/components/etc/model_back.dlc
@@ -224,7 +224,7 @@ etc/permissions/izat.xt.srv.xml
 etc/permissions/privapp-permissions-com.qualcomm.location.xml
 framework/com.qti.location.sdk.jar
 framework/izat.xt.srv.jar
--priv-app/com.qualcomm.location/com.qualcomm.location.apk
+#-priv-app/com.qualcomm.location/com.qualcomm.location.apk
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
