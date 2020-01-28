@@ -21,12 +21,16 @@
     <ctl name="Ultrasound Enable" value="Off" />
     <!-- smart pa default config -->
     <ctl name="Program" value="0" />
-    <ctl name="Configuration" value="4" />
+    <ctl name="Configuration" value="14" />
     <ctl name="TAS2559 DAC Playback Volume" value="15" />
     <ctl name="VBoost Volt" value="5.6V" />
     <ctl name="VBoost Ctrl" value="Default" />
     <ctl name="QUAT_MI2S_RX Channels" value="Two" />
+    <ctl name="QUAT_MI2S_RX Format" value="S24_LE" />
     <ctl name="QUAT_MI2S_RX SampleRate" value="KHZ_48" />
+    <ctl name="QUAT_MI2S_TX Channels" value="Two" />
+    <ctl name="QUAT_MI2S_TX Format" value="S24_LE" />
+    <ctl name="QUAT_MI2S_TX SampleRate" value="KHZ_48" />
     <ctl name="External AMIC2 Mux" value="Dual_ADC" />
 
     <path name="deep-buffer-playback speaker-protected">
@@ -411,16 +415,16 @@
 
     <path name="speaker-mono-2">
         <ctl name="QUAT_MI2S_RX Channels" value="One" />
-        <ctl name="Configuration" value="2" />
+        <ctl name="Configuration" value="12" />
     </path>
 
     <path name="voice-speaker">
         <path name="speaker-mono-2" />
-        <ctl name="Configuration" value="2" />
+        <ctl name="Configuration" value="12" />
     </path>
 
     <path name="speaker">
-        <ctl name="Configuration" value="4" />
+        <ctl name="Configuration" value="14" />
     </path>
 
     <path name="speaker-protected">
@@ -433,7 +437,7 @@
 
     <path name="handset">
         <ctl name="QUAT_MI2S_RX Channels" value="One" />
-        <ctl name="Configuration" value="3" />
+        <ctl name="Configuration" value="13" />
         <ctl name="VBoost Volt" value="5.6V" />
         <ctl name="VBoost Ctrl" value="AlwaysOn" />
         <ctl name="TAS2559 DAC Playback Volume" value="7" />
@@ -501,8 +505,8 @@
         <ctl name="ADC MUX8" value="AMIC" />
         <ctl name="AMIC MUX8" value="ADC1" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
-        <ctl name="ADC3 Volume" value="12" />
-        <ctl name="ADC1 Volume" value="12" />
+        <ctl name="ADC3 Volume" value="8" />
+        <ctl name="ADC1 Volume" value="8" />
     </path>
 
     <path name="handset-dmic-interview">
@@ -529,8 +533,8 @@
         <ctl name="ADC MUX8" value="AMIC" />
         <ctl name="AMIC MUX8" value="ADC1" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
-        <ctl name="ADC3 Volume" value="8" />
-        <ctl name="ADC1 Volume" value="8" />
+        <ctl name="ADC3 Volume" value="12" />
+        <ctl name="ADC1 Volume" value="12" />
     </path>
 
     <path name="handset-stereo-dmic-ef">
