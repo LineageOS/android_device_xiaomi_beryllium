@@ -34,9 +34,6 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/dev/input/event2"
-
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
