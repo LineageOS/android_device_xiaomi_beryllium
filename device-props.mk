@@ -1,3 +1,7 @@
+# APEX
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.apex.updatable=false
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.perfcapture=1
