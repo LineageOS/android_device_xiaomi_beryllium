@@ -7,7 +7,7 @@
 #       /proc/device-tree/firmware/android/fstab/vendor
 
 #<src>                                      <mnt_point>             <type>  <mnt_flags and options>                                                                           <fs_mgr_flags>
-/dev/block/bootdevice/by-name/userdata       /data                   ext4    noatime,nosuid,nodev,barrier=0,noauto_da_alloc                                                    wait,check,forceencrypt=footer,quota
+/dev/block/bootdevice/by-name/userdata       /data                   ext4    noatime,nosuid,nodev,barrier=0,noauto_da_alloc                                                    latemount,wait,check,fileencryption=ice,quota,encryptable=footer
 /dev/block/bootdevice/by-name/modem          /vendor/firmware_mnt    vfat    ro,shortname=lower,uid=0,gid=1000,dmask=227,fmask=337,context=u:object_r:firmware_file:s0         wait
 /dev/block/bootdevice/by-name/dsp            /vendor/dsp             ext4    ro,nosuid,nodev,barrier=1                                                                         wait
 /dev/block/bootdevice/by-name/persist        /mnt/vendor/persist     ext4    noatime,nosuid,nodev,barrier=1                                                                    wait
