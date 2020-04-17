@@ -1,3 +1,5 @@
+# Device proprietary files - from beryllium's MIUI package V11.0.6.0.QEJMIXM global stable version
+
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb
