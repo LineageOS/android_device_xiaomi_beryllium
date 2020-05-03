@@ -25,6 +25,10 @@ BOARD_HAVE_QCOM_FM := true
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_beryllium
+TARGET_RECOVERY_DEVICE_MODULES := //$(DEVICE_PATH):libinit_beryllium
+
 # Kernel
 TARGET_KERNEL_CONFIG := beryllium_defconfig
 
