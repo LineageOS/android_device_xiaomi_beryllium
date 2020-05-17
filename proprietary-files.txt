@@ -181,8 +181,9 @@ vendor/etc/hdr_config.cfg
 vendor/etc/sdr_config.cfg
 
 # Fingerprint
-vendor/lib64/hw/fingerprint.fpc.so
-vendor/lib64/hw/fingerprint.goodix.so
+vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.sdm845.so
+vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.sdm845.so
+vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/vendor.goodix.hardware.fingerprintextension@1.0.so
