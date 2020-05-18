@@ -1,5 +1,4 @@
 # Display postprocessing
-persist.ppd.fde.config=0
 vendor.display.enable_default_color_mode=1
 
 # FM
