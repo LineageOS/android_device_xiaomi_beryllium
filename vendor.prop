@@ -4,3 +4,6 @@ vendor.display.enable_default_color_mode=1
 
 # FM
 vendor.hw.fm.init=0
+
+# Google
+ro.com.google.clientidbase.ms=android-xiaomi-rev1
