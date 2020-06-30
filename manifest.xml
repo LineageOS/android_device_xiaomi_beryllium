@@ -1,4 +1,4 @@
-<manifest version="1.0" type="device" target-level="3">
+<manifest version="1.0" type="device">
     <hal format="hidl">
         <name>android.hardware.gnss</name>
         <transport>hwbinder</transport>
