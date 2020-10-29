@@ -83,6 +83,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     XiaomiPocketMode
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # WiFi
 PRODUCT_PACKAGES += \
     TargetWifiOverlay
