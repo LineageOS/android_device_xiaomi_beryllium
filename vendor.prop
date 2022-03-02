@@ -6,3 +6,6 @@ vendor.display.enable_default_color_mode=1
 
 # FM
 vendor.hw.fm.init=0
+
+# USB
+vendor.usb.product_string=Xiaomi Pocophone F1
