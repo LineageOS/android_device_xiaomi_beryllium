@@ -20,7 +20,7 @@ BOARD_HAS_QCA_FM_SOC := "cherokee"
 BOARD_HAVE_QCOM_FM := true
 
 # Display
-TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_DENSITY := 352
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/xiaomi/beryllium.config
