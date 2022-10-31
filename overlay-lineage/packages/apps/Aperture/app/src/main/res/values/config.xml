@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Enable auxiliary cameras selector. -->
+    <bool name="config_enableAuxCameras">true</bool>
+
+    <!-- List of ID of auxiliary cameras that must be ignored by the app. -->
+    <string-array name="config_ignoredAuxCameraIds">
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
