@@ -1,6 +1,29 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "4e1cc815_475015af",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-06-10T12:44:59Z",
+      "side": 1,
+      "message": "Don\u0027t mention it please :)",
+      "range": {
+        "startLine": 9,
+        "startChar": 41,
+        "endLine": 9,
+        "endChar": 45
+      },
+      "revId": "276a760717d542368ca02f1bf575ba86cd69c823",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "b5143adc_1b012f01",
@@ -32,6 +55,52 @@
       "side": 1,
       "message": "for changing to f2fs filesystem",
       "parentUuid": "b5143adc_1b012f01",
+      "revId": "276a760717d542368ca02f1bf575ba86cd69c823",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c55d1307_8e769c67",
+        "filename": "rootdir/etc/fstab.qcom",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-06-10T12:44:59Z",
+      "side": 1,
+      "message": "Place it before ext4 one, so Lineage recovery will prefer F2FS when formatting data",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 220
+      },
+      "revId": "276a760717d542368ca02f1bf575ba86cd69c823",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92accbb0_9e77ad28",
+        "filename": "rootdir/etc/fstab.qcom",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-06-10T12:44:59Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 197
+      },
       "revId": "276a760717d542368ca02f1bf575ba86cd69c823",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
