@@ -26,6 +26,30 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "f021ac24_0036853d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-06-10T16:09:19Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "4e1cc815_475015af",
+      "range": {
+        "startLine": 9,
+        "startChar": 41,
+        "endLine": 9,
+        "endChar": 45
+      },
+      "revId": "276a760717d542368ca02f1bf575ba86cd69c823",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "b5143adc_1b012f01",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 1
@@ -82,6 +106,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "14709035_b8e7d16e",
+        "filename": "rootdir/etc/fstab.qcom",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-06-10T16:09:19Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "c55d1307_8e769c67",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 220
+      },
+      "revId": "276a760717d542368ca02f1bf575ba86cd69c823",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "92accbb0_9e77ad28",
@@ -95,6 +143,30 @@
       "writtenOn": "2023-06-10T12:44:59Z",
       "side": 1,
       "message": "ditto",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 197
+      },
+      "revId": "276a760717d542368ca02f1bf575ba86cd69c823",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd7f6138_6c08fd8c",
+        "filename": "rootdir/etc/fstab.qcom",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-06-10T16:09:19Z",
+      "side": 1,
+      "message": "Removed cache, won\u0027t do much good in f2fs/ext4",
+      "parentUuid": "92accbb0_9e77ad28",
       "range": {
         "startLine": 13,
         "startChar": 0,
