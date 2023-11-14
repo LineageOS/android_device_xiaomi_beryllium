@@ -22,6 +22,30 @@
       },
       "revId": "30581c3f82849ad13dac61ea0917e758eb99027b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ef0e329_0eaaf71d",
+        "filename": "overlay-lineage/lineage-sdk/lineage/res/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-11-14T14:52:35Z",
+      "side": 1,
+      "message": "Yes :/",
+      "parentUuid": "4fb4afdf_6b6eec9c",
+      "range": {
+        "startLine": 4,
+        "startChar": 26,
+        "endLine": 4,
+        "endChar": 28
+      },
+      "revId": "30581c3f82849ad13dac61ea0917e758eb99027b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
