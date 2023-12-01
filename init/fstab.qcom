@@ -6,8 +6,8 @@
 system                                       /system                 ext4    ro,barrier=1,discard                                                                              wait,logical,first_stage_mount
 system_ext                                   /system_ext             ext4    ro,barrier=1,discard                                                                              wait,logical,first_stage_mount
 product                                      /product                ext4    ro,barrier=1,discard                                                                              wait,logical,first_stage_mount
-vendor                                       /vendor                 ext4    ro,barrier=1,discard                                                                              wait,logical,first_stage_mount
-odm                                          /odm                    ext4    ro,barrier=1,discard                                                                              wait,logical,first_stage_mount
+vendor                                       /vendor                 erofs   ro                                                                                                wait,logical,first_stage_mount
+odm                                          /odm                    erofs   ro                                                                                                wait,logical,first_stage_mount
 /dev/block/by-name/logdump                   /metadata               ext4    noatime,nosuid,nodev,discard,data=journal,commit=1                         wait,check,formattable,first_stage_mount
 /dev/block/bootdevice/by-name/userdata       /data                   f2fs    noatime,nosuid,nodev,discard,reserve_root=32768,resgid=1065,fsync_mode=nobarrier                  latemount,wait,check,fileencryption=aes-256-xts:aes-256-cts:v2,quota,formattable,reservedsize=128M
 /dev/block/bootdevice/by-name/userdata       /data                   ext4    noatime,nosuid,nodev,barrier=0,noauto_da_alloc                                                    latemount,wait,check,fileencryption=aes-256-xts:aes-256-cts:v2,quota,formattable
