@@ -46,6 +46,30 @@
       },
       "revId": "f6b9f76f3d02ae9d54259a2ad9036c5b37aa9da9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc2a6c8c_aa60f708",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 31890
+      },
+      "writtenOn": "2024-04-07T17:31:36Z",
+      "side": 0,
+      "message": "Works on my beryllium at least",
+      "parentUuid": "c28e5d3f_501aaa74",
+      "range": {
+        "startLine": 196,
+        "startChar": 0,
+        "endLine": 197,
+        "endChar": 42
+      },
+      "revId": "f6b9f76f3d02ae9d54259a2ad9036c5b37aa9da9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
