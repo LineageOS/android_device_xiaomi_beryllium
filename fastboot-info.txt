@@ -1,8 +1,0 @@
-version 1
-flash boot
-flash recovery
-flash system
-flash cust system_ext.img
-flash vendor
-if-wipe erase cache
-if-wipe erase userdata
