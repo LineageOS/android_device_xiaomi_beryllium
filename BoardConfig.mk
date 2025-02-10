@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2024 The LineageOS Project
+# Copyright (C) 2018-2025 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -14,9 +14,6 @@ TARGET_OTA_ASSERT_DEVICE := beryllium
 
 # Audio
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
-
-# FM
-BOARD_HAS_QCA_FM_SOC := "cherokee"
 
 # Display
 TARGET_SCREEN_DENSITY := 440
