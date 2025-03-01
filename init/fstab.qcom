@@ -18,6 +18,7 @@ odm                                          /odm                    ext4    ro,
 /dev/block/bootdevice/by-name/misc           /misc                   emmc    defaults                                                                                          defaults
 /dev/block/bootdevice/by-name/boot           /boot                   emmc    defaults                                                                                          recoveryonly
 /dev/block/bootdevice/by-name/recovery       /recovery               emmc    defaults                                                                                          recoveryonly
+/dev/block/zram0                             none                    swap    defaults                                                                                          zramsize=2147483648,max_comp_streams=8,zram_backingdev_size=512M
 
 /devices/platform/soc/8804000.sdhci/mmc_host*         /storage/sdcard1        vfat    nosuid,nodev    wait,voldmanaged=sdcard1:auto,encryptable=footer
 
