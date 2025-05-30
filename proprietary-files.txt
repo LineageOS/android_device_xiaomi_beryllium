@@ -28,16 +28,7 @@ vendor/etc/tas2559_r.ftcfg
 
 # Audio
 vendor/lib/libacdbloader.so
-vendor/lib/libcsd-client.so
-
-# Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
-vendor/lib64/libbtnv.so
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
+vendor/lib/libcsd-client.so;DISABLE_DEPS
 
 # Camera
 vendor/bin/remosaic_daemon
@@ -141,7 +132,7 @@ vendor/lib/camera/fdconfigvideolite.bin
 vendor/lib/camera/systemdefault.bin
 vendor/lib/camera/titan17x_usecases.bin
 vendor/lib/hw/camera.qcom.so
-vendor/lib/hw/com.qti.chi.override.so
+vendor/lib/hw/com.qti.chi.override.so;DISABLE_DEPS
 vendor/lib/lib_denoiser3.so
 vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libarcsoft_dualcam_image_optical_zoom.so
@@ -192,13 +183,6 @@ vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.sdm845.so;FIX
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.sdm845.so;FIX_SONAME
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
-
-# FM
-system/lib64/fm_helium.so:system_ext/lib64/fm_helium.so
-system/lib64/libfm-hci.so:system_ext/lib64/libfm-hci.so
-product/lib64/vendor.qti.hardware.fm@1.0.so:system_ext/lib64/vendor.qti.hardware.fm@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
