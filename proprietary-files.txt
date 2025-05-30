@@ -28,7 +28,7 @@ vendor/etc/tas2559_r.ftcfg
 
 # Audio
 vendor/lib/libacdbloader.so
-vendor/lib/libcsd-client.so
+vendor/lib/libcsd-client.so;DISABLE_DEPS
 
 # Camera
 vendor/bin/remosaic_daemon
@@ -130,7 +130,7 @@ vendor/lib/camera/fdconfigvideolite.bin
 vendor/lib/camera/systemdefault.bin
 vendor/lib/camera/titan17x_usecases.bin
 vendor/lib/hw/camera.qcom.so
-vendor/lib/hw/com.qti.chi.override.so
+vendor/lib/hw/com.qti.chi.override.so;DISABLE_DEPS
 vendor/lib/libFaceGrade.so
 vendor/lib/libSNPE.so;DISABLE_CHECKELF
 vendor/lib/libXMFD_AgeGender.so
