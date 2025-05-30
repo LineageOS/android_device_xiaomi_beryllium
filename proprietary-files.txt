@@ -30,15 +30,6 @@ vendor/etc/tas2559_r.ftcfg
 vendor/lib/libacdbloader.so
 vendor/lib/libcsd-client.so
 
-# Bluetooth
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
-vendor/lib64/libbtnv.so
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
-
 # Camera
 vendor/bin/remosaic_daemon
 vendor/etc/camera/MIUI_Time.ttf
@@ -192,13 +183,6 @@ vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.sdm845.so;FIX
 vendor/lib64/hw/fingerprint.goodix.so:vendor/lib64/hw/fingerprint.goodix.sdm845.so;FIX_SONAME
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
-
-# FM
-product/lib64/vendor.qti.hardware.fm@1.0.so:system_ext/lib64/vendor.qti.hardware.fm@1.0.so
-system/lib64/fm_helium.so:system_ext/lib64/fm_helium.so
-system/lib64/libfm-hci.so:system_ext/lib64/libfm-hci.so
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 
 # GNSS
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti
