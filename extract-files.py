@@ -44,7 +44,8 @@ lib_fixups: lib_fixups_user_type = {
 
 blob_fixups: blob_fixups_user_type = {
     'vendor/lib/camera/components/com.qti.node.watermark.so': blob_fixup()
-        .add_needed('libpiex_shim.so'),
+        .add_needed('libpiex_shim.so')
+        .replace_needed('libdng_sdk.so', 'libdng_sdk_vendor.so'),
     'vendor/lib/libmmcamera_faceproc.so': blob_fixup()
         .clear_symbol_version('__aeabi_memcpy')
         .clear_symbol_version('__aeabi_memset')
