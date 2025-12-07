@@ -161,6 +161,7 @@ vendor/lib/libcamxstatscore.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libcom.qti.chinodeutils.so
 vendor/lib/libc++_shared.so
+vendor/lib/libdng_sdk.so:vendor/lib/libdng_sdk_vendor.so;FIX_SONAME
 vendor/lib/libFaceGrade.so
 vendor/lib/libft2vendor.so
 vendor/lib/libmibokeh_845.so
