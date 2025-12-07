@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "57479435_df5af775",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-07T18:11:44Z",
+      "side": 1,
+      "message": "This would be an alternative for having the shim: https://review.lineageos.org/c/LineageOS/android_device_xiaomi_beryllium/+/463782.\n\nBesides the shim, it was also necessary to make libdng_sdk available to vendor again:\n\n\u003e 12-07 16:53:46.029  1082  1082 E CamX    : [ERROR][UTILS  ] camxosutilslinux.cpp:911 LibMap() dlopen: dlopen failed: library \"libdng_sdk.so\" not found: needed by /vendor/lib/camera/components/com.qti.node.watermark.so in namespace (default), on \u0027/vendor/lib/camera/components/com.qti.node.watermark.so\u0027",
+      "revId": "62df431da940b58ab48c39f82f1d4979fddfee4a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
