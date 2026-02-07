@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "caca9e00_f1af2507",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-02-07T15:32:17Z",
+      "side": 1,
+      "message": "This isn\u0027t needed if 32-bit libmdmdetect.so is added in the common tree.",
+      "revId": "7bee072850d353c7fbea52fdb9409ef4d5fe8af8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
