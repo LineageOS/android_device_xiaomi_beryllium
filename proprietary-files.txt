@@ -41,6 +41,8 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 
 # Camera
 vendor/bin/remosaic_daemon
+vendor/etc/camera/MIUI_Time.ttf
+vendor/etc/camera/Miui-Light.ttf
 vendor/etc/camera/age_gender_bg
 vendor/etc/camera/beauty_ui9_intelligent_params.config
 vendor/etc/camera/camxoverridesettings.txt
@@ -56,14 +58,10 @@ vendor/etc/camera/female_icon.png
 vendor/etc/camera/hdr_ui9_params.config
 vendor/etc/camera/male_bg.png
 vendor/etc/camera/male_icon.png
-vendor/etc/camera/Miui-Light.ttf
-vendor/etc/camera/MIUI_Time.ttf
 vendor/etc/camera/people_gender.dat
 vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
 vendor/etc/camera/watermark_font_2300_3199.dat
-vendor/lib64/libremosaic_daemon.so
-vendor/lib64/libremosaiclib.so
 vendor/lib/camera/components/etc/GpuKernelRepo.pb
 vendor/lib/camera/components/etc/model_back.dlc
 vendor/lib/camera/components/etc/model_front.dlc
@@ -142,6 +140,9 @@ vendor/lib/camera/systemdefault.bin
 vendor/lib/camera/titan17x_usecases.bin
 vendor/lib/hw/camera.qcom.so
 vendor/lib/hw/com.qti.chi.override.so
+vendor/lib/libFaceGrade.so
+vendor/lib/libSNPE.so;DISABLE_CHECKELF
+vendor/lib/libXMFD_AgeGender.so
 vendor/lib/lib_denoiser3.so
 vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libarcsoft_dualcam_image_optical_zoom.so
@@ -153,6 +154,7 @@ vendor/lib/libarcsoft_low_light_hdr.so
 vendor/lib/libarcsoft_portrait_lighting.so
 vendor/lib/libarcsoft_portrait_lighting_c.so
 vendor/lib/libarcsoft_supernight.so
+vendor/lib/libc++_shared.so
 vendor/lib/libcamera_dirty.so
 vendor/lib/libcamera_scene.so
 vendor/lib/libcamxfdalgov7.so
@@ -160,8 +162,6 @@ vendor/lib/libcamxfdengine.so
 vendor/lib/libcamxstatscore.so
 vendor/lib/libcamxtintlessalgo.so
 vendor/lib/libcom.qti.chinodeutils.so
-vendor/lib/libc++_shared.so
-vendor/lib/libFaceGrade.so
 vendor/lib/libft2vendor.so
 vendor/lib/libmibokeh_845.so
 vendor/lib/libmmcamera_faceproc.so
@@ -169,19 +169,19 @@ vendor/lib/libmmcamera_faceproc2.so
 vendor/lib/libmpbase.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libremosaiclib.so
-vendor/lib/libSNPE.so;DISABLE_CHECKELF
 vendor/lib/libstfaceunlockoclqcom.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libsymphony-cpu.so
 vendor/lib/libsymphonypower.so
 vendor/lib/libtonemapalgo.so
 vendor/lib/libvidhance.so
-vendor/lib/libXMFD_AgeGender.so
 vendor/lib/mibokeh_845_opencl.bin
+vendor/lib64/libremosaic_daemon.so
+vendor/lib64/libremosaiclib.so
 
 # Camera firmware
-vendor/firmware/bu64748gwz.prog
 vendor/firmware/CAMERA_ICP.elf
+vendor/firmware/bu64748gwz.prog
 
 # Display configs
 vendor/etc/hdr_config.cfg
@@ -194,9 +194,9 @@ vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
 
 # FM
+product/lib64/vendor.qti.hardware.fm@1.0.so:system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 system/lib64/fm_helium.so:system_ext/lib64/fm_helium.so
 system/lib64/libfm-hci.so:system_ext/lib64/libfm-hci.so
-product/lib64/vendor.qti.hardware.fm@1.0.so:system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor
 
@@ -220,20 +220,20 @@ vendor/lib64/libaoa.so
 vendor/lib64/libbatching.so
 vendor/lib64/libcacertclient.so
 vendor/lib64/libdataitems.so
-vendor/lib64/libgeofencing.so
 vendor/lib64/libgdtap.so
-vendor/lib64/libgnsspps.so
+vendor/lib64/libgeofencing.so
 vendor/lib64/libgnss.so
+vendor/lib64/libgnsspps.so
 vendor/lib64/libgps.utils.so
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
 vendor/lib64/libjnihelper.so
 vendor/lib64/liblbs_core.so
-vendor/lib64/liblocation_api.so
-vendor/lib64/liblocationservice_glue.so
-vendor/lib64/liblocationservice.so
 vendor/lib64/libloc_api_v02.so
 vendor/lib64/libloc_core.so
+vendor/lib64/liblocation_api.so
+vendor/lib64/liblocationservice.so
+vendor/lib64/liblocationservice_glue.so
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_wifihal.so
 vendor/lib64/libminksocket.so
@@ -245,8 +245,8 @@ vendor/lib64/vendor.qti.gnss@1.1.so
 vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
-vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.gnss@3.0-service.so
+vendor/lib64/vendor.qti.gnss@3.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 
 # Keymaster
