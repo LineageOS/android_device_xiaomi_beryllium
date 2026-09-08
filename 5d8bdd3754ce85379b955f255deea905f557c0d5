@@ -34,6 +34,24 @@
       "parentUuid": "b3756ead_834bfb4b",
       "revId": "5d8bdd3754ce85379b955f255deea905f557c0d5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc891b8a_95ce389d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35755
+      },
+      "writtenOn": "2026-09-08T18:58:30Z",
+      "side": 1,
+      "message": "it is happening in 4.19 kernel from months, maybe 4.9 too, i am not sure when it started. I\u0027ll test it sometime.",
+      "parentUuid": "53b5dae7_86dfb33f",
+      "revId": "5d8bdd3754ce85379b955f255deea905f557c0d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
